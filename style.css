@@ -1,0 +1,50 @@
+body
+{
+    margin: 0px;
+}
+
+h1
+{
+    background-color: #fcff49;
+    margin: 0;
+    padding: 20px;
+}
+
+.add-Btn
+{
+    float: right;
+    margin: 10px 30px;
+}
+
+.note
+{
+    margin: 50px 30px;
+    border: 1px solid;
+    width: 200px;
+    height: 130px;
+    overflow: scroll;
+}
+
+.operation
+{
+    display: flex;
+    justify-content: flex-end; 
+    padding: 3px;
+}
+
+.note textarea
+{
+    width: 175px;
+    height: 200px;
+    border: none;
+}
+
+.note textarea:focus
+{
+    outline:none
+}
+
+.hidden
+{
+    display: none;
+}

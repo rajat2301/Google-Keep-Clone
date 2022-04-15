@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Google Keep</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://kit.fontawesome.com/27405a37eb.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body>
-        <h1><i class="fa-solid fa-note-sticky"></i>Google Keep</h1>
 
-        <button class="add-Btn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Keep</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/27405a37eb.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="text-white bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 text-3xl"><i
+            class="fa-solid fa-note-sticky"></i> Google Keep</h1>
+
+
+    <button type="button"
+        class="add-Btn relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group">
+        <span
+            class="absolute bottom-0 left-0 w-full h-1 transition-all duration-200 ease-in-out bg-indigo-600 group-hover:h-full"></span>
+        <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
             <i class="fa-solid fa-plus"></i>
-            <span>Add Note</span>
-        </button>
-        <script src="script.js"></script>
-    </body>
+        </span>
+        <span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
+            <i class="fa-solid fa-plus text-green-400"></i>
+
+        </span>
+        <span class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">Add
+            Note</span>
+    </button>
+    <script src="script.js"></script>
+</body>
+
 </html>
